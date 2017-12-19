@@ -1,0 +1,9 @@
+{
+  "title": "索引",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "### Mysql索引概述\n通常为了提升select查询效率建立列索引\n### 设计索引的原则\n- 搜索的索引列不一定是要选择的列，通常where子句中的列或连接子句中的列，而不是selec后的列；\n- 使用唯一索引，考虑列中值得分部，对于唯一值得列索引效果最好，同样多个重复值的列索引效果差；\n- 使用短索引，如果对串列进行索引建议指定一个前缀长度，比如对于一个char(200)列，如果在前10个或20个字符内多数值是唯一的就不要对整个列进行索引。\n- 最左原则，多列索引最左原则使用。\n- 不要过度索引，不要以为索引越多越好，索引过多会降低插入性能膨胀空间。\n- 索引可用于 < <= = > >= BETWEEN等，如果只将某个列用于其他类型运算时（STRCMP()）对其进行索引无意义；\n\n### Btree索引和Hash索引\nhash索引特性：只用于=或!=操作符的等式比较,优化器不能使用hash索引来加速order by操作;    \n适用于Btree和Hash的索引   \n- select id from t1 where key1 = 1 or key in(2,3,4,5)\n适用于Btree索引的    \n- select id from t1 where key1 = 1 and key < 10\n- select id from t1 where key1 like 'ab%' or key between 'bar' and 'foo'\n\n### Mysql索引的使用\n索引用于快速找到某一行，不使用索引mysql必须从第一条数据开始查找，表越大花费时间越长    \n多数Mysql索引(PRIMARY KEY, UNIQUE, INDEX, FULLTEXT)存储于Btree"
+    }
+  ]
+}

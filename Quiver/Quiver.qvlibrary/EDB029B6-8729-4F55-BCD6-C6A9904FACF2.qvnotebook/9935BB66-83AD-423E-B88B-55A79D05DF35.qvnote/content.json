@@ -1,0 +1,9 @@
+{
+  "title": "字符集",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "### 常用命令\n- show character set 查看所有字符集\n- set names xxx 设定字符集\n- show collation like 'xx' 查看相关字符集校对规则\n\n### My服务器设置字符集方式\n- my.cnf \n    [mysqld]\n    default-character-set=utf8\n- mysqld --default-character-set=utf8\n- ./configure --with-charset=utf8\n"
+    }
+  ]
+}

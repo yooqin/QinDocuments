@@ -1,0 +1,25 @@
+{
+  "title": "Personal",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "# 设计能力\n- [ ] 掌握面向对象设计实践\n- [ ] 掌握各种设计模式及应用场景\n- [ ] 熟悉微服务架构及领域驱动设计\n- [ ] 完成一个轻量级产品设计及开源\n"
+    },
+    {
+      "type": "markdown",
+      "data": "# 语言能力\n- [ ] 掌握PHP内核功能\n- [ ] 了解JS JQ VUE\n- [ ] 掌握Shell编程\n- [ ] 学习Python Go"
+    },
+    {
+      "type": "markdown",
+      "data": "# 架构运维能力\n- [ ] Nginx Apache运行机制、常用配置、优化方法\n- [ ] Mysql、Redis、Memcache各类原理学习\n- [ ] 主从存储设计\n- [ ] 各种架构优劣熟悉\n- [ ] 各种安装、启动、日志、排除命名"
+    },
+    {
+      "type": "markdown",
+      "data": "# 计算机基础\n- [ ] 线程、进程、网络编程、算法复杂度、数据结构\n- [ ] HTTP协议"
+    },
+    {
+      "type": "markdown",
+      "data": "# 管理\n- [ ] 管理风格及理论产生\n- [ ] 开发规范、敏捷开发、双向迭代开发、软件工程\n- [ ] 领导力\n- [ ] 解决复杂问题的方法"
+    }
+  ]
+}

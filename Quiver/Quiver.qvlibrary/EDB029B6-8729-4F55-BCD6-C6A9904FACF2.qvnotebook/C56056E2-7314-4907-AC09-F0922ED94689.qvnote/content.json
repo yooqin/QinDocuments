@@ -1,0 +1,13 @@
+{
+  "title": "Mysql帮助",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "# 按照层次查看帮助\n\n- mysql> ? contents\n- mysql> ?"
+    },
+    {
+      "type": "markdown",
+      "data": "# 按照语法查看帮助\n- mysql> ?show\n- mysql> ?create talbe"
+    }
+  ]
+}
